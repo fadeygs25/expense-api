@@ -61,3 +61,14 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem 'devise'             # Authentication
+gem 'devise-jwt'         # JWT Authentication
+gem 'active_model_serializers' # Serializer for JSON API responses
+gem 'kaminari'           # Pagination
+gem 'rack-cors'          # Cross-Origin Resource Sharing
+gem 'faker'              # For generating fake data (useful for seeding)
+gem 'rails_admin'
+gem "cssbundling-rails"
+gem 'pg', '~> 1.4'
+gem 'dotenv-rails', groups: [:development, :test]
